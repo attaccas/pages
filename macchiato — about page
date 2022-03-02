@@ -213,9 +213,9 @@ em {
 /*-- CREDIT — DO NOT TOUCH --*/
 #credit {
     font-family: "Phosphor";
-    font-size: 23px;
+    font-size: 22px;
     text-align:center;
-    padding: 12px;
+    padding: 11px;
     border-radius: 10px;
     background-color: var(--content-background);
     color: var(--accent);

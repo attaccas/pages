@@ -1,5 +1,5 @@
 # pages
-<p>— do not use as a base code or steal any part of this code
+<p>— do not use as a base code or steal any part of my codes
 <br>
   — do not touch the credit or claim as your own</p>
 <p><b>CREDITS</b>

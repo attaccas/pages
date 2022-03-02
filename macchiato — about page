@@ -12,7 +12,7 @@
     — do not use as a base code or steal any part of this code
     — do not touch the credit or claim as your own
     
-    — cappuccicons by suiomi // https://cappuccicons.com
+    — phosphor icons // https://phosphoricons.com
     — tippy.js tooltips by atomiks // https://atomiks.github.io/tippyjs
     — google fonts // https://fonts.google.com
 -->
@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;1,300&family=Spirax&display=swap" rel="stylesheet">
 
-<script src="//pull.cappuccicons.com/cpf.js"></script>
+<script src="https://unpkg.com/phosphor-icons"></script>
 
 <script src="https://unpkg.com/popper.js@1"></script>
 <script src="https://unpkg.com/tippy.js@5/dist/tippy-bundle.iife.js"></script>
@@ -212,10 +212,10 @@ em {
 
 /*-- CREDIT — DO NOT TOUCH --*/
 #credit {
-    font-family:'cappuccicons';
-    font-size: 20px;
+    font-family: "Phosphor";
+    font-size: 23px;
     text-align:center;
-    padding: 9px 11px;
+    padding: 12px;
     border-radius: 10px;
     background-color: var(--content-background);
     color: var(--accent);
@@ -324,7 +324,7 @@ em {
 }
 
 #info i {
-    font-size:20px;
+    font-size:23px;
     color:var(--accent);
 }
 
@@ -337,9 +337,10 @@ em {
 
 /*-- SOCIALS --*/
 #socials {
-    margin-top:299px;
+    position:inline-block;
     letter-spacing:.1em;
     text-align:center;
+    margin-top:325px;
 }
 
 #socials li {
@@ -603,21 +604,21 @@ em {
 </div>
 </div>
 
-<!-- you can choose the icons of your liking from https://cappuccicons.com. just replace the text after "cp cp-" with the icon name. -->
+<!-- you can choose the icons of your liking from https://phosphoricons.com. just replace the text after "ph-" with the icon name. -->
 <div class="container">
 
 <!--
 TEMPLATE:
-	<li><i class="cp cp-icon-name"></i><span>detail</span></li>
+	<li><i class="ph-icon-name-fill"></i><span>detail</span></li>
 -->
 <div id="info">
-    <li><i class="cp cp-user"></i><span>name</span></li>
-    <li><i class="cp cp-leaf"></i><span>pronouns</span></li>
-    <li><i class="cp cp-flag"></i><span>nationality</span></li>
-    <li><i class="cp cp-cake"></i><span>age</span></li>
-    <li><i class="cp cp-sun"></i><span>sun sign</span></li>
-    <li><i class="cp cp-planet"></i><span>mbti</span></li>
-    <li><i class="cp cp-stars"></i><span>enneagram</span></li>
+    <li><i class="ph-user-fill"></i><span>name</span></li>
+    <li><i class="ph-gender-intersex-fill"></i><span>pronouns</span></li>
+    <li><i class="ph-flag-fill"></i><span>nationality</span></li>
+    <li><i class="ph-cake-fill"></i><span>age</span></li>
+    <li><i class="ph-sun-fill"></i><span>sun sign</span></li>
+    <li><i class="ph-planet-fill"></i><span>mbti</span></li>
+    <li><i class="ph-sparkle-fill"></i><span>enneagram</span></li>
 </div>
 
 <!-- SOCIALS -->
@@ -627,12 +628,12 @@ TEMPLATE:
 	you may remove title="name" if you don't want to have have text appearing when you hover over an icon.
 
 TEMPLATE:
-	<a href="link" title="name" target="_blank"><i class="cp cp-icon-name"></i></a>
+	<a href="link" title="name" target="_blank"><i class="ph-icon-name-fill"></i></a>
 -->
-    <a href="link" title="name" target="_blank"><i class="cp cp-icon-name"></i></a>
-	<a href="link" title="name" target="_blank"><i class="cp cp-icon-name"></i></a>
-	<a href="link" title="name" target="_blank"><i class="cp cp-icon-name"></i></a>
-	<a href="link" title="name" target="_blank"><i class="cp cp-icon-name"></i></a>
+    <a href="link" title="name" target="_blank"><i class="ph-icon-name-fill"></i></a>
+	<a href="link" title="name" target="_blank"><i class="ph-icon-name-fill"></i></a>
+	<a href="link" title="name" target="_blank"><i class="ph-icon-name-fill"></i></a>
+	<a href="link" title="name" target="_blank"><i class="ph-icon-name-fill"></i></a>
 </div>
 </div>
 
@@ -764,7 +765,7 @@ TEMPLATE:
 <!-- STOP EDITING HERE -->
 
 <!-- CREDITS — DO NOT TOUCH -->
-<a href="/" title="MACCHIATO PAGE BY ACE" id="credit"><i class="cp cp-coffee-cup"></i></a>
+<a href="/" title="MACCHIATO PAGE BY ACE" id="credit"><i class="ph-coffee"></i></a>
 
 <!-- TOOLTIPS — DO NOT TOUCH -->
 <script>

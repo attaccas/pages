@@ -4,7 +4,7 @@
   — do not touch the credit or claim as your own</p>
 <p><b>CREDITS</b>
 <br>
-  — cappuccicons by suiomi // https://cappuccicons.com
+  — phosphor icons // https://phosphoricons.com
 <br>
   — tippy.js tooltips by atomiks // https://atomiks.github.io/tippyjs
 <br>
